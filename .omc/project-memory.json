@@ -262,15 +262,15 @@
       "type": "file"
     },
     {
-      "path": "src/sw.ts",
-      "accessCount": 10,
-      "lastAccessed": 1781720525258,
+      "path": "src/lib/guards.test.ts",
+      "accessCount": 11,
+      "lastAccessed": 1781820419318,
       "type": "file"
     },
     {
-      "path": "src/lib/guards.test.ts",
+      "path": "src/sw.ts",
       "accessCount": 10,
-      "lastAccessed": 1781808070256,
+      "lastAccessed": 1781720525258,
       "type": "file"
     },
     {
@@ -316,6 +316,12 @@
       "type": "file"
     },
     {
+      "path": "worker/src/index.ts",
+      "accessCount": 5,
+      "lastAccessed": 1781820440288,
+      "type": "file"
+    },
+    {
       "path": "src/lib/index.ts",
       "accessCount": 4,
       "lastAccessed": 1781720714364,
@@ -334,15 +340,21 @@
       "type": "file"
     },
     {
-      "path": "worker/src/index.ts",
-      "accessCount": 4,
-      "lastAccessed": 1781758097683,
-      "type": "file"
-    },
-    {
       "path": "worker/tests/worker.test.ts",
       "accessCount": 4,
       "lastAccessed": 1781758248102,
+      "type": "file"
+    },
+    {
+      "path": "04-HARDENING_PROTOCOL.md",
+      "accessCount": 4,
+      "lastAccessed": 1781820382498,
+      "type": "file"
+    },
+    {
+      "path": "worker/src/llm.ts",
+      "accessCount": 4,
+      "lastAccessed": 1781820440411,
       "type": "file"
     },
     {
@@ -358,39 +370,27 @@
       "type": "file"
     },
     {
-      "path": "worker/src/llm.ts",
-      "accessCount": 3,
-      "lastAccessed": 1781758063762,
-      "type": "file"
-    },
-    {
       "path": "CLAUDE.md",
       "accessCount": 3,
       "lastAccessed": 1781778996679,
       "type": "file"
     },
     {
-      "path": "04-HARDENING_PROTOCOL.md",
+      "path": "03-DOC-AND-CODE-REVIEW.md",
       "accessCount": 3,
-      "lastAccessed": 1781808039128,
+      "lastAccessed": 1781820382227,
+      "type": "file"
+    },
+    {
+      "path": "TODO-REVIEW.md",
+      "accessCount": 3,
+      "lastAccessed": 1781820382656,
       "type": "file"
     },
     {
       "path": "src/lib/integration.test.ts",
       "accessCount": 2,
       "lastAccessed": 1781705288274,
-      "type": "file"
-    },
-    {
-      "path": "03-DOC-AND-CODE-REVIEW.md",
-      "accessCount": 2,
-      "lastAccessed": 1781734062260,
-      "type": "file"
-    },
-    {
-      "path": "TODO-REVIEW.md",
-      "accessCount": 2,
-      "lastAccessed": 1781734062564,
       "type": "file"
     },
     {
@@ -421,6 +421,18 @@
       "path": "worker/src/prompt.ts",
       "accessCount": 2,
       "lastAccessed": 1781778452290,
+      "type": "file"
+    },
+    {
+      "path": "worker/src/ratelimit.ts",
+      "accessCount": 2,
+      "lastAccessed": 1781820440641,
+      "type": "file"
+    },
+    {
+      "path": "worker/wrangler.toml.example",
+      "accessCount": 2,
+      "lastAccessed": 1781820448357,
       "type": "file"
     },
     {
@@ -520,21 +532,9 @@
       "type": "file"
     },
     {
-      "path": "worker/wrangler.toml.example",
-      "accessCount": 1,
-      "lastAccessed": 1781752933257,
-      "type": "file"
-    },
-    {
       "path": "worker/src/outline.ts",
       "accessCount": 1,
       "lastAccessed": 1781753058548,
-      "type": "file"
-    },
-    {
-      "path": "worker/src/ratelimit.ts",
-      "accessCount": 1,
-      "lastAccessed": 1781753162654,
       "type": "file"
     },
     {
