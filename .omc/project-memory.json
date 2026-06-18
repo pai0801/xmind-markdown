@@ -1,30 +1,88 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1781695101875,
+  "lastScanned": 1781808026248,
   "projectRoot": "/home/peter/Code/xmind-markdown",
   "techStack": {
-    "languages": [],
-    "frameworks": [],
-    "packageManager": null,
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      },
+      {
+        "name": "C/C++",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "Makefile"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "astro",
+        "version": "5.18.0",
+        "category": "fullstack"
+      },
+      {
+        "name": "svelte",
+        "version": "5.53.5",
+        "category": "frontend"
+      },
+      {
+        "name": "vitest",
+        "version": "4.0.18",
+        "category": "testing"
+      }
+    ],
+    "packageManager": "npm",
     "runtime": null
   },
   "build": {
-    "buildCommand": null,
-    "testCommand": null,
-    "lintCommand": null,
-    "devCommand": null,
-    "scripts": {}
+    "buildCommand": "npm run build",
+    "testCommand": "npm test",
+    "lintCommand": "npm run lint",
+    "devCommand": "npm run dev",
+    "scripts": {
+      "dev": "astro dev",
+      "build": "astro build",
+      "preview": "astro preview",
+      "astro": "astro",
+      "check": "astro check",
+      "lint": "astro check",
+      "typecheck": "tsc --noEmit",
+      "test": "vitest",
+      "test:ui": "vitest --ui",
+      "test:run": "vitest run",
+      "deploy": "npm run build && npx gh-pages -d dist"
+    }
   },
   "conventions": {
     "namingStyle": null,
     "importStyle": null,
     "testPattern": null,
-    "fileOrganization": null
+    "fileOrganization": "type-based"
   },
   "structure": {
     "isMonorepo": false,
     "workspaces": [],
-    "mainDirectories": [],
+    "mainDirectories": [
+      "docs",
+      "public",
+      "scripts",
+      "src"
+    ],
     "gitBranches": {
       "defaultBranch": "gh-pages",
       "branchingStrategy": null
@@ -32,26 +90,155 @@
   },
   "customNotes": [],
   "directoryMap": {
-    "_astro": {
-      "path": "_astro",
-      "purpose": null,
-      "fileCount": 11,
-      "lastAccessed": 1781695101773,
+    "dist": {
+      "path": "dist",
+      "purpose": "Distribution/build output",
+      "fileCount": 7,
+      "lastAccessed": 1781808026213,
       "keyFiles": [
-        "Converter.DQpMmAG8.js",
-        "Footer.Cxpj4knI.js",
-        "Header.BYg2_hY9.js",
-        "branches.BhnsEkNE.js",
-        "client.svelte.CQiO8I6G.js"
+        "favicon.svg",
+        "index.html",
+        "manifest.json",
+        "manifest.webmanifest",
+        "registerSW.js"
       ]
     },
-    "icons": {
-      "path": "icons",
+    "docs": {
+      "path": "docs",
+      "purpose": "Documentation",
+      "fileCount": 3,
+      "lastAccessed": 1781808026227,
+      "keyFiles": [
+        "01-plan.md",
+        "260304-01-md2xmind.md",
+        "deployment.md"
+      ]
+    },
+    "public": {
+      "path": "public",
+      "purpose": "Public files",
+      "fileCount": 3,
+      "lastAccessed": 1781808026230,
+      "keyFiles": [
+        "favicon.svg",
+        "manifest.json"
+      ]
+    },
+    "references": {
+      "path": "references",
+      "purpose": null,
+      "fileCount": 4,
+      "lastAccessed": 1781808026237,
+      "keyFiles": [
+        "COMPONENT_PATTERNS.md",
+        "FIX-LOG-TEMPLATE.md",
+        "REFLECT-TEMPLATE.md",
+        "TODO-REVIEW-TEMPLATE.md"
+      ]
+    },
+    "scripts": {
+      "path": "scripts",
+      "purpose": "Build/utility scripts",
+      "fileCount": 3,
+      "lastAccessed": 1781808026238,
+      "keyFiles": [
+        "check-deploy-config.sh",
+        "deploy-ghpages.sh",
+        "install-hooks.sh"
+      ]
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 1,
+      "lastAccessed": 1781808026239,
+      "keyFiles": [
+        "sw.ts"
+      ]
+    },
+    "test-files": {
+      "path": "test-files",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1781695101853,
+      "lastAccessed": 1781808026239,
       "keyFiles": [
-        "icon.svg"
+        "test.xmind"
+      ]
+    },
+    "worker": {
+      "path": "worker",
+      "purpose": null,
+      "fileCount": 7,
+      "lastAccessed": 1781808026240,
+      "keyFiles": [
+        "DEPLOY.md",
+        "package-lock.json",
+        "package.json",
+        "tsconfig.json",
+        "vitest.config.ts"
+      ]
+    },
+    "src/components": {
+      "path": "src/components",
+      "purpose": "UI components",
+      "fileCount": 0,
+      "lastAccessed": 1781808026242,
+      "keyFiles": []
+    },
+    "src/lib": {
+      "path": "src/lib",
+      "purpose": "Library code",
+      "fileCount": 16,
+      "lastAccessed": 1781808026243,
+      "keyFiles": [
+        "ai-client.ts",
+        "ai-config.ts",
+        "client-converter.test.ts"
+      ]
+    },
+    "src/pages": {
+      "path": "src/pages",
+      "purpose": "Page components",
+      "fileCount": 1,
+      "lastAccessed": 1781808026243,
+      "keyFiles": [
+        "index.astro"
+      ]
+    },
+    "src/types": {
+      "path": "src/types",
+      "purpose": "Type definitions",
+      "fileCount": 1,
+      "lastAccessed": 1781808026244,
+      "keyFiles": [
+        "converter.ts"
+      ]
+    },
+    "worker/node_modules": {
+      "path": "worker/node_modules",
+      "purpose": "Dependencies",
+      "fileCount": 1,
+      "lastAccessed": 1781808026246,
+      "keyFiles": []
+    },
+    "worker/src": {
+      "path": "worker/src",
+      "purpose": "Source code",
+      "fileCount": 5,
+      "lastAccessed": 1781808026247,
+      "keyFiles": [
+        "index.ts",
+        "llm.ts",
+        "outline.ts"
+      ]
+    },
+    "worker/tests": {
+      "path": "worker/tests",
+      "purpose": "Test files",
+      "fileCount": 1,
+      "lastAccessed": 1781808026248,
+      "keyFiles": [
+        "worker.test.ts"
       ]
     }
   },
@@ -81,15 +268,15 @@
       "type": "file"
     },
     {
-      "path": "src/components/converter/ResultPanel.svelte",
-      "accessCount": 9,
-      "lastAccessed": 1781698748972,
+      "path": "src/lib/guards.test.ts",
+      "accessCount": 10,
+      "lastAccessed": 1781808070256,
       "type": "file"
     },
     {
-      "path": "src/lib/guards.test.ts",
+      "path": "src/components/converter/ResultPanel.svelte",
       "accessCount": 9,
-      "lastAccessed": 1781734099856,
+      "lastAccessed": 1781698748972,
       "type": "file"
     },
     {
@@ -183,6 +370,12 @@
       "type": "file"
     },
     {
+      "path": "04-HARDENING_PROTOCOL.md",
+      "accessCount": 3,
+      "lastAccessed": 1781808039128,
+      "type": "file"
+    },
+    {
       "path": "src/lib/integration.test.ts",
       "accessCount": 2,
       "lastAccessed": 1781705288274,
@@ -192,12 +385,6 @@
       "path": "03-DOC-AND-CODE-REVIEW.md",
       "accessCount": 2,
       "lastAccessed": 1781734062260,
-      "type": "file"
-    },
-    {
-      "path": "04-HARDENING_PROTOCOL.md",
-      "accessCount": 2,
-      "lastAccessed": 1781734062408,
       "type": "file"
     },
     {
