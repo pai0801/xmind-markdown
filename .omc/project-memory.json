@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1781808026248,
+  "lastScanned": 1781906653570,
   "projectRoot": "/home/peter/Code/xmind-markdown",
   "techStack": {
     "languages": [
@@ -94,7 +94,7 @@
       "path": "dist",
       "purpose": "Distribution/build output",
       "fileCount": 7,
-      "lastAccessed": 1781808026213,
+      "lastAccessed": 1781906653547,
       "keyFiles": [
         "favicon.svg",
         "index.html",
@@ -107,7 +107,7 @@
       "path": "docs",
       "purpose": "Documentation",
       "fileCount": 3,
-      "lastAccessed": 1781808026227,
+      "lastAccessed": 1781906653549,
       "keyFiles": [
         "01-plan.md",
         "260304-01-md2xmind.md",
@@ -118,7 +118,7 @@
       "path": "public",
       "purpose": "Public files",
       "fileCount": 3,
-      "lastAccessed": 1781808026230,
+      "lastAccessed": 1781906653563,
       "keyFiles": [
         "favicon.svg",
         "manifest.json"
@@ -128,7 +128,7 @@
       "path": "references",
       "purpose": null,
       "fileCount": 4,
-      "lastAccessed": 1781808026237,
+      "lastAccessed": 1781906653566,
       "keyFiles": [
         "COMPONENT_PATTERNS.md",
         "FIX-LOG-TEMPLATE.md",
@@ -140,7 +140,7 @@
       "path": "scripts",
       "purpose": "Build/utility scripts",
       "fileCount": 3,
-      "lastAccessed": 1781808026238,
+      "lastAccessed": 1781906653566,
       "keyFiles": [
         "check-deploy-config.sh",
         "deploy-ghpages.sh",
@@ -151,7 +151,7 @@
       "path": "src",
       "purpose": "Source code",
       "fileCount": 1,
-      "lastAccessed": 1781808026239,
+      "lastAccessed": 1781906653566,
       "keyFiles": [
         "sw.ts"
       ]
@@ -160,7 +160,7 @@
       "path": "test-files",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1781808026239,
+      "lastAccessed": 1781906653567,
       "keyFiles": [
         "test.xmind"
       ]
@@ -169,7 +169,7 @@
       "path": "worker",
       "purpose": null,
       "fileCount": 7,
-      "lastAccessed": 1781808026240,
+      "lastAccessed": 1781906653567,
       "keyFiles": [
         "DEPLOY.md",
         "package-lock.json",
@@ -182,14 +182,14 @@
       "path": "src/components",
       "purpose": "UI components",
       "fileCount": 0,
-      "lastAccessed": 1781808026242,
+      "lastAccessed": 1781906653568,
       "keyFiles": []
     },
     "src/lib": {
       "path": "src/lib",
       "purpose": "Library code",
       "fileCount": 16,
-      "lastAccessed": 1781808026243,
+      "lastAccessed": 1781906653568,
       "keyFiles": [
         "ai-client.ts",
         "ai-config.ts",
@@ -200,7 +200,7 @@
       "path": "src/pages",
       "purpose": "Page components",
       "fileCount": 1,
-      "lastAccessed": 1781808026243,
+      "lastAccessed": 1781906653568,
       "keyFiles": [
         "index.astro"
       ]
@@ -209,7 +209,7 @@
       "path": "src/types",
       "purpose": "Type definitions",
       "fileCount": 1,
-      "lastAccessed": 1781808026244,
+      "lastAccessed": 1781906653568,
       "keyFiles": [
         "converter.ts"
       ]
@@ -218,14 +218,14 @@
       "path": "worker/node_modules",
       "purpose": "Dependencies",
       "fileCount": 1,
-      "lastAccessed": 1781808026246,
+      "lastAccessed": 1781906653570,
       "keyFiles": []
     },
     "worker/src": {
       "path": "worker/src",
       "purpose": "Source code",
       "fileCount": 5,
-      "lastAccessed": 1781808026247,
+      "lastAccessed": 1781906653570,
       "keyFiles": [
         "index.ts",
         "llm.ts",
@@ -236,7 +236,7 @@
       "path": "worker/tests",
       "purpose": "Test files",
       "fileCount": 1,
-      "lastAccessed": 1781808026248,
+      "lastAccessed": 1781906653570,
       "keyFiles": [
         "worker.test.ts"
       ]
@@ -281,8 +281,8 @@
     },
     {
       "path": "package.json",
-      "accessCount": 8,
-      "lastAccessed": 1781721891185,
+      "accessCount": 9,
+      "lastAccessed": 1781906782703,
       "type": "file"
     },
     {
@@ -310,6 +310,12 @@
       "type": "file"
     },
     {
+      "path": "04-HARDENING_PROTOCOL.md",
+      "accessCount": 6,
+      "lastAccessed": 1781906681463,
+      "type": "file"
+    },
+    {
       "path": "src/lib/download.ts",
       "accessCount": 5,
       "lastAccessed": 1781734135648,
@@ -319,12 +325,6 @@
       "path": "worker/src/index.ts",
       "accessCount": 5,
       "lastAccessed": 1781820440288,
-      "type": "file"
-    },
-    {
-      "path": "04-HARDENING_PROTOCOL.md",
-      "accessCount": 5,
-      "lastAccessed": 1781893804031,
       "type": "file"
     },
     {
@@ -358,6 +358,18 @@
       "type": "file"
     },
     {
+      "path": "03-DOC-AND-CODE-REVIEW.md",
+      "accessCount": 4,
+      "lastAccessed": 1781906681289,
+      "type": "file"
+    },
+    {
+      "path": "TODO-REVIEW.md",
+      "accessCount": 4,
+      "lastAccessed": 1781906681618,
+      "type": "file"
+    },
+    {
       "path": "src/components/converter/TreeView.svelte",
       "accessCount": 3,
       "lastAccessed": 1781698668860,
@@ -373,18 +385,6 @@
       "path": "CLAUDE.md",
       "accessCount": 3,
       "lastAccessed": 1781778996679,
-      "type": "file"
-    },
-    {
-      "path": "03-DOC-AND-CODE-REVIEW.md",
-      "accessCount": 3,
-      "lastAccessed": 1781820382227,
-      "type": "file"
-    },
-    {
-      "path": "TODO-REVIEW.md",
-      "accessCount": 3,
-      "lastAccessed": 1781820382656,
       "type": "file"
     },
     {
