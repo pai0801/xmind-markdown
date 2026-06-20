@@ -263,8 +263,8 @@
     },
     {
       "path": "src/lib/guards.test.ts",
-      "accessCount": 11,
-      "lastAccessed": 1781820419318,
+      "accessCount": 12,
+      "lastAccessed": 1781993037308,
       "type": "file"
     },
     {
@@ -298,15 +298,15 @@
       "type": "file"
     },
     {
-      "path": "src/lib/round-trip.test.ts",
-      "accessCount": 7,
-      "lastAccessed": 1781778544851,
+      "path": "04-HARDENING_PROTOCOL.md",
+      "accessCount": 8,
+      "lastAccessed": 1781992984629,
       "type": "file"
     },
     {
-      "path": "04-HARDENING_PROTOCOL.md",
+      "path": "src/lib/round-trip.test.ts",
       "accessCount": 7,
-      "lastAccessed": 1781979625604,
+      "lastAccessed": 1781778544851,
       "type": "file"
     },
     {
@@ -328,15 +328,27 @@
       "type": "file"
     },
     {
-      "path": "src/lib/index.ts",
-      "accessCount": 4,
-      "lastAccessed": 1781720714364,
+      "path": "03-DOC-AND-CODE-REVIEW.md",
+      "accessCount": 5,
+      "lastAccessed": 1781992984384,
+      "type": "file"
+    },
+    {
+      "path": "TODO-REVIEW.md",
+      "accessCount": 5,
+      "lastAccessed": 1781992984771,
       "type": "file"
     },
     {
       "path": "CHANGELOG.md",
+      "accessCount": 5,
+      "lastAccessed": 1781993060185,
+      "type": "file"
+    },
+    {
+      "path": "src/lib/index.ts",
       "accessCount": 4,
-      "lastAccessed": 1781753891449,
+      "lastAccessed": 1781720714364,
       "type": "file"
     },
     {
@@ -355,18 +367,6 @@
       "path": "worker/src/llm.ts",
       "accessCount": 4,
       "lastAccessed": 1781820440411,
-      "type": "file"
-    },
-    {
-      "path": "03-DOC-AND-CODE-REVIEW.md",
-      "accessCount": 4,
-      "lastAccessed": 1781906681289,
-      "type": "file"
-    },
-    {
-      "path": "TODO-REVIEW.md",
-      "accessCount": 4,
-      "lastAccessed": 1781906681618,
       "type": "file"
     },
     {
