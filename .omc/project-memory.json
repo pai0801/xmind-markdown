@@ -304,15 +304,15 @@
       "type": "file"
     },
     {
-      "path": "src/lib/utils.ts",
-      "accessCount": 6,
-      "lastAccessed": 1781724765387,
+      "path": "04-HARDENING_PROTOCOL.md",
+      "accessCount": 7,
+      "lastAccessed": 1781979625604,
       "type": "file"
     },
     {
-      "path": "04-HARDENING_PROTOCOL.md",
+      "path": "src/lib/utils.ts",
       "accessCount": 6,
-      "lastAccessed": 1781906681463,
+      "lastAccessed": 1781724765387,
       "type": "file"
     },
     {
